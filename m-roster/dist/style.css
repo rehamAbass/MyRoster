@@ -1,0 +1,40 @@
+
+.card{
+    float:left;
+    height: 400px;
+    width: calc(33% - 4px);
+    text-align: center;
+    overflow:hidden;
+    background-color: orange;
+    margin: 2px;
+    box-sizing: border-box;
+}
+img{
+    background-color: gray;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#searchInput{
+
+    width: 80%;
+}
+#rosterBtn{
+    width: 8%;
+    background-color:grey;
+    color:white
+
+}
+#dreamTeamBtn{
+    width: 8%;
+    background-color:yellow
+}
+.title{
+    
+    font-size: 15px;
+    margin: 5px;
+}
+;
