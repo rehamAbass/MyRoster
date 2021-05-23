@@ -37,7 +37,6 @@ app.use(express.urlencoded({extended:false}))
 
 app.use('/',api)
 
-
 //port listening on
 const port = 3001
 app.listen(port, function () {

@@ -12,6 +12,7 @@ const playersManager = new PlayersManager()
  */
 $("#rosterBtn").on("click",function(){
     playersManager.getPlayers()
+    
 })
 
 
